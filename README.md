@@ -8,6 +8,9 @@
 
 ## Overview
 
+This project utilizes a dataset containing numerous images of various driving behaviors to perform image classification. The goal of this project is to build a model that can detect distracted driving tendencies and aid State Farm in implementing a new program that tracks drivers' behaviors through the use of a dashboard camera (with permission). Using the information collected by the dashcam, State Farm would offer their clients an insurance quote based on the respective driver's actions at the wheel (safer driving leads to a lower quote, and distracted driving leads to a higher quote). State Farm hopes that this new program can incentivize its clients to practice safer driving and consequently improve road safety.
+
+Through the use of Convolutional Neural Networks (CNNs) and transfer learning, I produced 10 different models to eventually achieve the best accuracy score: 88.17%.
 
 ## Business Understanding
 
@@ -43,7 +46,7 @@ After two months of observation and a report produced by the dashcam, State Farm
 
 The data that I used for this project comes from a dataset from [Kaggle](https://www.kaggle.com/c/state-farm-distracted-driver-detection) titled "State Farm Distracted Driver Detection."
 
-The dataset consists of 22,424 photos belonging to 10 classes. I split each class into train and validation groupings with 80% of the images in the train data and 20% in the validation data.
+The dataset consists of 22,424 photos belonging to 10 classes. I split each class into train and validation groupings, with 80% of the images in the train data and 20% in the validation data.
 
 Regarding the test data, the data source provided a folder of 79,388 unlabeled images. After going through many of these images, I manually labeled 338 of them, with each class containing 33 test photos, on average.
 
