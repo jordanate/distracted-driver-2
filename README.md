@@ -49,11 +49,25 @@ The dataset is quite large and the classes are relatively balanced, so no data a
 
 ## Evaluation
 
+After reviewing the test accuracy for each model, the final model for my project is Model 9. It has a test accuracy of 88.17%, which was achieved by using VGG16, a pre-trained model, with all but the last 9 layers frozen.
+
 ### Final Model Confusion Matrix
+
+<p align = 'center'>
+  <img width = '730' height = '550' src="https://github.com/jordanate/distracted-driver-detection/blob/main/images/model9_cm.png"> 
+</p>
 
 ### Final Model Accuracy Graph
 
+<p align = 'center'>
+  <img width = '730' height = '550' src="https://github.com/jordanate/distracted-driver-detection/blob/main/images/model9_acc.png"> 
+</p>
+
 ### Final Model Loss Graph
+
+<p align = 'center'>
+  <img width = '730' height = '550' src="https://github.com/jordanate/distracted-driver-detection/blob/main/images/model9_loss.png"> 
+</p>
 
 ## Conclusions
 
