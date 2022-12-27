@@ -84,7 +84,7 @@ After reviewing the test accuracy for each model, the final model for my project
 
 For a full analysis, please look at my [Jupyter Notebook](./distracted-driver-detection.ipynb)
 
-For a more concise summary, please review my [presentation]().
+For a more concise summary, please review my [presentation](https://github.com/jordanate/distracted-driver-detection/blob/main/presentation.pdf).
 
 For any additional questions, please contact Jordana Tepper at <a href="mailto:jtepper724@gmail.com">jtepper724@gmail.com</a> 
 
