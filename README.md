@@ -9,12 +9,39 @@
 ## Overview
 
 
-## Business Problem
+## Business Understanding
 
+### What is Distracted Driving?
+
+There are three main types of distracted driving:
+
+**Visual:** taking your eyes off the road   
+**Manual:** taking your hands off the wheel   
+**Cognitive:** taking your mind off driving   
+
+### Why is Distracted Driving a Problem?
+
+According to [CDC data](https://www.cdc.gov/transportationsafety/distracted_driving/index.html#:~:text=Nine%20people%20in%20the%20United,to%20involve%20a%20distracted%20driver.&text=Distracted%20driving%20is%20doing%20another,of%20a%20motor%20vehicle%20crash.) from 2019, approximately 3,142 people were killed, and 424,000 people were injured from a car crash involving a distracted driver in the United States that year. This translates to 9 people per day being killed due to distracted driving. Furthermore, of the people killed in distracted driving accidents, 1 in 5 of these individuals were not in vehicles (i.e., walking, biking, etc.) 
+
+### What can be done to help reduce Distracted Driving?
+
+Due to the ongoing problem of distracted driving, State Farm has proposed the idea of offering clients the option of being recorded while driving to track their behavior at the wheel. This would be done through the means of a dashboard camera that would continuously take pictures of the driver and classify their actions according to 10 categories:   
+  * safe driving   
+  * texting with their right hand   
+  * talking on the phone with their right hand   
+  * texting with their left hand   
+  * talking on the phone with their left hand  
+  * operating the radio    
+  * drinking a beverage   
+  * reaching behind  
+  * fixing hair and/or makeup  
+  * talking to a passenger   
+
+After two months of observation and a report produced by the dashcam, State Farm would then offer the client an insurance quote based on their driving tendencies. In other words, safer driving would result in paying less money for insurance, whereas unsafe driving would result in a higher quote. Hopefully, such an incentive could lead to individuals practicing safer driving habits - benefiting both them and the greater population.
 
 ## Data Understanding
 
-The data that I used for this project comes from a dataset from Kaggle titled "State Farm Distracted Driver Detection."
+The data that I used for this project comes from a dataset from [Kaggle](https://www.kaggle.com/c/state-farm-distracted-driver-detection) titled "State Farm Distracted Driver Detection."
 
 The dataset consists of 22,424 photos belonging to 10 classes. I split each class into train and validation groupings with 80% of the images in the train data and 20% in the validation data.
 
@@ -73,12 +100,12 @@ After reviewing the test accuracy for each model, the final model for my project
 
 ### Limitations
 * The test images had to be manually labeled, and as a result, the size of the test data is small
-* The images are from a single angle, so in practice, the State Farm DashCam would need to be positioned the same way
+* The images are from a single angle, so in practice, the State Farm dashcam would need to be positioned the same way
 
 ### Next Steps
 * Obtain a greater amount of labeled test data
 * Build the model based on images from various angles
-* Analyze a potential relationship between the use of a DashCam and improvements in driving behaviors
+* Analyze a potential relationship between the use of a dashcam and improvements in driving behaviors
 
 ## For More Information
 
