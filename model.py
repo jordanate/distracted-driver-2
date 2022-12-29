@@ -42,11 +42,12 @@ title = '<p style="font-weight:bold; color:Black; font-size:45px;">Distracted Dr
 st.markdown(title, unsafe_allow_html=True)
 
 
-prompt = '<p style="font-weight:bold; color:Black; font-size:22px;">Type Your File Path: </p>'
+prompt = '<p style="font-weight:bold; color:Black; font-size:22px;">Upload an Image: </p>'
 
 st.markdown(prompt, unsafe_allow_html=True) 
 
-input = st.text_input(' ')
+input = st.file_uploader(" ")
+
 
 button = st.button('Enter')
 
