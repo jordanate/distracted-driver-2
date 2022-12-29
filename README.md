@@ -4,6 +4,8 @@
 
 ### Deployed Model
 
+https://jordanate-distracted-driver-detection-model-fc3haz.streamlit.app/
+
 **By:** Jordana Tepper
 
 ## Overview
