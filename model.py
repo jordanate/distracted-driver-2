@@ -210,14 +210,14 @@ st.markdown(cognitive, unsafe_allow_html=True)
 st.markdown(subhead_2, unsafe_allow_html=True)
 st.markdown(subhead_3, unsafe_allow_html=True)
 
-st.markdown('''
+st.markdown(stat_1,
 <style>
 [data-testid="stMarkdownContainer"] ul{
     list-style-position: inside;
 }
 </style>
 ''', unsafe_allow_html=True)
-st.markdown(stat_1, unsafe_allow_html=True)
+
 st.markdown(stat_2, unsafe_allow_html=True)
 st.markdown(stat_3, unsafe_allow_html=True)
 
