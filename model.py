@@ -209,9 +209,6 @@ st.markdown(manual, unsafe_allow_html=True)
 st.markdown(cognitive, unsafe_allow_html=True)
 st.markdown(subhead_2, unsafe_allow_html=True)
 st.markdown(subhead_3, unsafe_allow_html=True)
-st.markdown(stat_1, unsafe_allow_html=True)
-st.markdown(stat_2, unsafe_allow_html=True)
-st.markdown(stat_3, unsafe_allow_html=True)
 
 st.markdown('''
 <style>
@@ -220,6 +217,11 @@ st.markdown('''
 }
 </style>
 ''', unsafe_allow_html=True)
+st.markdown(stat_1, unsafe_allow_html=True)
+st.markdown(stat_2, unsafe_allow_html=True)
+st.markdown(stat_3, unsafe_allow_html=True)
+
+
 
 
 
