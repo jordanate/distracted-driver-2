@@ -5,4 +5,3 @@ scikit-image==0.19.3
 tensorflow-datasets==4.7.0
 tensorflow-estimator==2.9.0
 tensorflow-metadata==1.11.0
-tensorflow-metal==0.5.1
