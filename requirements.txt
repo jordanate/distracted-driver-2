@@ -1,3 +1,4 @@
 streamlit==1.10.0
 imbalanced-learn==0.10.0
 keras== 2.9.0
+scikit-image==0.19.3  
