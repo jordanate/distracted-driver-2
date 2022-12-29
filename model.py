@@ -107,7 +107,7 @@ if button:
 			st.markdown(c1, unsafe_allow_html=True)
 			st.markdown(dd, unsafe_allow_html=True)
 			x_mark = Image.open('images/x_mark.png')
-			st.image(x_mark, width=200)
+			st.image(x_mark, width=150)
 	if index == 2:
 		col3,col4 = st.columns([12, 10])
 		with col3:
@@ -116,7 +116,7 @@ if button:
 			st.markdown(c2, unsafe_allow_html=True)
 			st.markdown(dd, unsafe_allow_html=True)
 			x_mark = Image.open('images/x_mark.png')
-			st.image(x_mark, width=200)
+			st.image(x_mark, width=150)
 	if index == 3:
 		col3,col4 = st.columns([12, 10])
 		with col3:
@@ -125,7 +125,7 @@ if button:
 			st.markdown(c3, unsafe_allow_html=True)
 			st.markdown(dd, unsafe_allow_html=True)
 			x_mark = Image.open('images/x_mark.png')
-			st.image(x_mark, width=200)
+			st.image(x_mark, width=150)
 	if index == 4:
 		col3,col4 = st.columns([12, 10])
 		with col3:
@@ -134,7 +134,7 @@ if button:
 			st.markdown(c4, unsafe_allow_html=True)
 			st.markdown(dd, unsafe_allow_html=True)
 			x_mark = Image.open('images/x_mark.png')
-			st.image(x_mark, width=200)
+			st.image(x_mark, width=150)
 		
 	if index == 5:
 		col3,col4 = st.columns([12, 10])
@@ -144,7 +144,7 @@ if button:
 			st.markdown(c5, unsafe_allow_html=True)
 			st.markdown(dd, unsafe_allow_html=True)
 			x_mark = Image.open('images/x_mark.png')
-			st.image(x_mark, width=200)
+			st.image(x_mark, width=150)
 	if index == 6:
 		col3,col4 = st.columns([12, 10])
 		with col3:
@@ -153,7 +153,7 @@ if button:
 			st.markdown(c6, unsafe_allow_html=True)
 			st.markdown(dd, unsafe_allow_html=True)
 			x_mark = Image.open('images/x_mark.png')
-			st.image(x_mark, width=200)
+			st.image(x_mark, width=150)
 	if index == 7:
 		col3,col4 = st.columns([12, 10])
 		with col3:
@@ -162,7 +162,7 @@ if button:
 			st.markdown(c7, unsafe_allow_html=True)
 			st.markdown(dd, unsafe_allow_html=True)
 			x_mark = Image.open('images/x_mark.png')
-			st.image(x_mark, width=200)
+			st.image(x_mark, width=150)
 	if index == 8:
 		col3,col4 = st.columns([12, 10])
 		with col3:
@@ -171,7 +171,7 @@ if button:
 			st.markdown(c8, unsafe_allow_html=True)
 			st.markdown(dd, unsafe_allow_html=True)
 			x_mark = Image.open('images/x_mark.png')
-			st.image(x_mark, width=200)
+			st.image(x_mark, width=150)
 	if index == 9:
 		col3,col4 = st.columns([12, 10])
 		with col3:
@@ -180,7 +180,7 @@ if button:
 			st.markdown(c9, unsafe_allow_html=True)
 			st.markdown(dd, unsafe_allow_html=True)
 			x_mark = Image.open('images/x_mark.png')
-			st.image(x_mark, width=200)
+			st.image(x_mark, width=150)
 
 st.markdown("***")
 
