@@ -97,7 +97,7 @@ if button:
 			st.markdown(c0, unsafe_allow_html=True)
 			st.markdown(sd, unsafe_allow_html=True)
 			check = Image.open('images/check.png')
-			st.image(check, width=120)
+			st.image(check, width=150)
 		
 	if index == 1:
 		col3,col4 = st.columns([12, 10])
