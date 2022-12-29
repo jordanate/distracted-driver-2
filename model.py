@@ -90,7 +90,7 @@ if button:
 	sd = '<p style="color:Black; font-size:20px;"><strong>DISTRACTED DRIVING?</strong> NO </p>'
 
 	if index == 0:
-		col3,col4 = st.columns([10, 10])
+		col3,col4 = st.columns([12, 10])
 		with col3:
 			st.image(input)
 		with col4:
@@ -100,7 +100,7 @@ if button:
 			st.image(check, width=120)
 		
 	if index == 1:
-		col3,col4 = st.columns([10, 10])
+		col3,col4 = st.columns([12, 10])
 		with col3:
 			st.image(input)
 		with col4:
@@ -109,7 +109,7 @@ if button:
 			x_mark = Image.open('images/x_mark.png')
 			st.image(x_mark, width=200)
 	if index == 2:
-		col3,col4 = st.columns([10, 10])
+		col3,col4 = st.columns([12, 10])
 		with col3:
 			st.image(input)
 		with col4:
@@ -118,7 +118,7 @@ if button:
 			x_mark = Image.open('images/x_mark.png')
 			st.image(x_mark, width=200)
 	if index == 3:
-		col3,col4 = st.columns([10, 10])
+		col3,col4 = st.columns([12, 10])
 		with col3:
 			st.image(input)
 		with col4:
@@ -127,7 +127,7 @@ if button:
 			x_mark = Image.open('images/x_mark.png')
 			st.image(x_mark, width=200)
 	if index == 4:
-		col3,col4 = st.columns([10, 10])
+		col3,col4 = st.columns([12, 10])
 		with col3:
 			st.image(input)
 		with col4:
@@ -137,7 +137,7 @@ if button:
 			st.image(x_mark, width=200)
 		
 	if index == 5:
-		col3,col4 = st.columns([10, 10])
+		col3,col4 = st.columns([12, 10])
 		with col3:
 			st.image(input)
 		with col4:
@@ -146,7 +146,7 @@ if button:
 			x_mark = Image.open('images/x_mark.png')
 			st.image(x_mark, width=200)
 	if index == 6:
-		col3,col4 = st.columns([10, 10])
+		col3,col4 = st.columns([12, 10])
 		with col3:
 			st.image(input)
 		with col4:
@@ -155,7 +155,7 @@ if button:
 			x_mark = Image.open('images/x_mark.png')
 			st.image(x_mark, width=200)
 	if index == 7:
-		col3,col4 = st.columns([10, 10])
+		col3,col4 = st.columns([12, 10])
 		with col3:
 			st.image(input)
 		with col4:
@@ -164,7 +164,7 @@ if button:
 			x_mark = Image.open('images/x_mark.png')
 			st.image(x_mark, width=200)
 	if index == 8:
-		col3,col4 = st.columns([10, 10])
+		col3,col4 = st.columns([12, 10])
 		with col3:
 			st.image(input)
 		with col4:
@@ -173,7 +173,7 @@ if button:
 			x_mark = Image.open('images/x_mark.png')
 			st.image(x_mark, width=200)
 	if index == 9:
-		col3,col4 = st.columns([10, 10])
+		col3,col4 = st.columns([12, 10])
 		with col3:
 			st.image(input)
 		with col4:
