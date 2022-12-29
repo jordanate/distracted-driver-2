@@ -122,7 +122,8 @@ For any additional questions, please contact Jordana Tepper at <a href="mailto:j
 ```
 ├── images
 ├── models
-├── .gitignore
+├──.gitattributes
+├──.gitignore
 ├── .jovianrc
 ├── README.md
 ├── distracted-driver-detection.ipynb
