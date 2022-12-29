@@ -6,11 +6,22 @@ from skimage import transform
 import tensorflow as tf 
 import os
 import base64
+from keras.models import model_from_json
+from keras import optimizers
+
 
 from PIL import Image
 
-with open('models/model9.pkl' , 'rb') as f:
-    lr = pickle.load(f)
+with open('models/model9.json', 'r') as json_file:
+    model9 = json_file.read()
+
+model9 = tf.keras.models.model_from_json(model9)
+
+model9.load_weights('models/model9.h5')
+
+model9.compile(loss='categorical_crossentropy',
+              optimizer=optimizers.Adam(lr=1e-4),
+              metrics=['acc'])
 
 def load(filename):
     image = Image.open(filename)
@@ -45,7 +56,7 @@ if button:
 
 	null = '<p style="color:Black; font-size:20px;">  </p>'
 
-	prediction = lr.predict(image)
+	prediction = model9.predict(image)
 
 	prediction_list = prediction[0].tolist()
 
