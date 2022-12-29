@@ -121,6 +121,7 @@ For any additional questions, please contact Jordana Tepper at <a href="mailto:j
 ## Repository Structure
 ```
 ├── images
+├── models
 ├── .gitignore
 ├── .jovianrc
 ├── README.md
