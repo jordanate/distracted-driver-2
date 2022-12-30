@@ -210,11 +210,8 @@ st.markdown(cognitive, unsafe_allow_html=True)
 st.markdown(subhead_2, unsafe_allow_html=True)
 st.markdown(subhead_3, unsafe_allow_html=True)
 
-1 = st.markdown(stat_1, unsafe_allow_html=True)
-2 = st.markdown(stat_2, unsafe_allow_html=True)
-3 = st.markdown(stat_3, unsafe_allow_html=True)
 
-lst = [1, 2, 3]
+lst = [st.markdown(stat_1, unsafe_allow_html=True), st.markdown(stat_2, unsafe_allow_html=True), st.markdown(stat_3, unsafe_allow_html=True)]
 
 s = ''
 
