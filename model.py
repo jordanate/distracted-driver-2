@@ -188,13 +188,13 @@ stats_title = '<p style="font-weight:bold; color:Black; font-size:27px;">Informa
 
 st.markdown(stats_title, unsafe_allow_html=True)
 
-subhead_1 = '<p style="color:Black; font-size:22px;"><strong>What is Distracted Driving?<strong></p>'
+subhead_1 = '<p style="color:Black; font-size:23px;"><strong>What is Distracted Driving?<strong></p>'
 
 visual = '<p style="color:Black; font-size:18px;"><strong>Visual:</strong> taking your eyes off the road</p>'
 manual = '<p style="color:Black; font-size:18px;"><strong>Manual:</strong> taking your hands off the wheel</p>'
 cognitive = '<p style="color:Black; font-size:18px;"><strong>Cognitive:</strong> taking your mind off driving</p>'
 
-subhead_2 = '<p style="color:Black; font-size:22px;"><strong>Why is Distracted Driving a Problem?<strong></p>'
+subhead_2 = '<p style="color:Black; font-size:23px;"><strong>Why is Distracted Driving a Problem?<strong></p>'
 
 subhead_3 = '<p style="color:Black; font-size:20px;"> According to United States statistics, in 2019...</p>'
 
