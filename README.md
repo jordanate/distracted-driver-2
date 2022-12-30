@@ -79,6 +79,8 @@ The dataset is quite large and the classes are relatively balanced, so no data a
 
 ## Modeling
 
+A summary of the modeling process and respective results can be seen in the chart below:
+
 ## Evaluation
 
 After reviewing the test accuracy for each model, the final model for my project is Model 9. It has a test accuracy of 88.17%, which was achieved by using VGG16, a pre-trained model, with all but the last 9 layers frozen.
