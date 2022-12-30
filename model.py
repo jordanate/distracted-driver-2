@@ -210,9 +210,7 @@ st.markdown(cognitive, unsafe_allow_html=True)
 st.markdown(subhead_2, unsafe_allow_html=True)
 st.markdown(subhead_3, unsafe_allow_html=True)
 st.markdown(
-"""
 - stats_1
 - stats_2
 - stats_3
-"""
 )
