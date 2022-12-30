@@ -12,14 +12,14 @@ from keras import optimizers
 
 from PIL import Image
 
-with open('models/model9.json', 'r') as json_file:
-    model9 = json_file.read()
+with open('models/model8.json', 'r') as json_file:
+    model8 = json_file.read()
 
-model9 = tf.keras.models.model_from_json(model9)
+model8 = tf.keras.models.model_from_json(model8)
 
-model9.load_weights('models/model9.h5')
+model8.load_weights('models/model8.h5')
 
-model9.compile(loss='categorical_crossentropy',
+model8.compile(loss='categorical_crossentropy',
               optimizer=optimizers.Adam(lr=1e-4),
               metrics=['acc'])
 
@@ -57,7 +57,7 @@ if button:
 
 	null = '<p style="color:Black; font-size:20px;">  </p>'
 
-	prediction = model9.predict(image)
+	prediction = model8.predict(image)
 
 	prediction_list = prediction[0].tolist()
 
