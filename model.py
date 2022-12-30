@@ -211,8 +211,8 @@ st.markdown(subhead_2, unsafe_allow_html=True)
 st.markdown(subhead_3, unsafe_allow_html=True)
 st.markdown(
 """
-- 9 people per day were killed due to distracted driving
-- 424,000 people were injured from a car crash involving a distracted driver
-- Of the people killed in distracted driving accidents, 1 in 5 of these individuals were not in vehicles (i.e., walking, biking, etc.)
+- stats_1
+- stats_2
+- stats_3
 """
 )
