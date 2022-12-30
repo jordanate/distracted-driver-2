@@ -12,7 +12,7 @@ https://jordanate-distracted-driver-detection-model-fc3haz.streamlit.app/
 
 This project utilizes a dataset containing numerous images of various driving behaviors to perform image classification. The goal of this project is to build a model that can detect distracted driving tendencies and aid State Farm in implementing a new program that tracks drivers' behaviors through the use of a dashboard camera (with permission). Using the information collected by the dashcam, State Farm would offer their clients an insurance quote based on the respective driver's actions at the wheel (safer driving leads to a lower quote, and distracted driving leads to a higher quote). State Farm hopes that this new program can incentivize its clients to practice safer driving and consequently improve road safety.
 
-Through the use of Convolutional Neural Networks (CNNs) and transfer learning, I produced 10 different models to eventually achieve the best accuracy score: 88.17%.
+Through the use of Convolutional Neural Networks (CNNs) and transfer learning, I produced 10 different models to eventually achieve the best accuracy score: 88.76%.
 
 ## Business Understanding
 
@@ -83,7 +83,7 @@ A summary of the modeling process and respective results can be seen in the char
 
 ## Evaluation
 
-After reviewing the test accuracy for each model, the final model for my project is Model 9. It has a test accuracy of 88.17%, which was achieved by using VGG16, a pre-trained model, with all but the last 9 layers frozen.
+After reviewing the test accuracy for each model, the final model for my project is Model 9. It has a test accuracy of 88.76%, which was achieved by using VGG16, a pre-trained model, with all but the last 9 layers frozen.
 
 ### Final Model Confusion Matrix
 
