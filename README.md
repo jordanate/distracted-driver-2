@@ -89,6 +89,8 @@ After reviewing the test accuracy for each model, the final model for my project
   <img width = '730' height = '550' src="https://github.com/jordanate/distracted-driver-detection/blob/main/images/model9_cm.png"> 
 </p>
 
+Based on the confusion matrix above, it appears as though the model's greatest weakness is misclassifying a driver as talking to a passenger (c9) when the driver is actually practicing safe driving behaviors (c0).
+
 ### Final Model Accuracy Graph
 
 <p align = 'center'>
