@@ -81,6 +81,10 @@ The dataset is quite large and the classes are relatively balanced, so no data a
 
 A summary of the modeling process and respective results can be seen in the chart below:
 
+<p align = 'center'>
+  <img width = '1500' height = '400' src="https://github.com/jordanate/distracted-driver-detection/blob/main/images/stats.png"> 
+</p>
+
 ## Evaluation
 
 After reviewing the test accuracy for each model, the final model for my project is Model 8. It has a test accuracy of 90.53%, which was achieved by using VGG16, a pre-trained model, with all but the last 7 layers frozen.
