@@ -132,4 +132,5 @@ dmypy.json
 *.zip
 
 models/model9.pkl
+models/model8.pkl
 zipped data/state-farm-distracted-driver-detection.zip
