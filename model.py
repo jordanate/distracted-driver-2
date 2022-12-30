@@ -198,9 +198,11 @@ subhead_2 = '<p style="color:Black; font-size:23px;"><strong>Why is Distracted D
 
 subhead_3 = '<p style="color:Black; font-size:20px;"> According to United States statistics, in 2019...</p>'
 
-stat_1 = '<p style="color:Black; font-size:18px;"> • 9 people per day were killed due to distracted driving</p>'
-stat_2 = '<p style="color:Black; font-size:18px;"> • 424,000 people were injured from a car crash involving a distracted driver</p>'
-stat_3 = '<p style="color:Black; font-size:18px;"> • Of the people killed in distracted driving accidents, 1 in 5 of these individuals were not in vehicles (i.e., walking, biking, etc.)</p>'
+stats = '<p style="color:Black; font-size:18px;"><ul>
+  <li>9 people per day were killed due to distracted driving</li>
+  <li>424,000 people were injured from a car crash involving a distracted driver</li>
+  <li>Of the people killed in distracted driving accidents, 1 in 5 of these individuals were not in vehicles (i.e., walking, biking, etc.</li>
+</ul></p>'
 
 
 st.markdown(subhead_1, unsafe_allow_html=True)
@@ -209,6 +211,4 @@ st.markdown(manual, unsafe_allow_html=True)
 st.markdown(cognitive, unsafe_allow_html=True)
 st.markdown(subhead_2, unsafe_allow_html=True)
 st.markdown(subhead_3, unsafe_allow_html=True)
-st.markdown(stat_1, unsafe_allow_html=True)
-st.markdown(stat_2, unsafe_allow_html=True)
-st.markdown(stat_3, unsafe_allow_html=True)
+st.markdown(stats, unsafe_allow_html=True)
