@@ -82,7 +82,7 @@ The dataset is quite large and the classes are relatively balanced, so no data a
 A summary of the modeling process and respective results can be seen in the chart below:
 
 <p align = 'center'>
-  <img width = '1500' height = '400' src="https://github.com/jordanate/distracted-driver-detection/blob/main/images/stats.png"> 
+  <img width = '1500' height = '380' src="https://github.com/jordanate/distracted-driver-detection/blob/main/images/stats.png"> 
 </p>
 
 ## Evaluation
