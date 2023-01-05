@@ -75,7 +75,7 @@ c9 = TALKING TO PASSENGER**
 
 ![class_size.png](https://github.com/jordanate/distracted-driver-detection/blob/main/images/class_size.png)
 
-The dataset is quite large and the classes are relatively balanced, so no data augmentation is needed.
+The dataset is quite large, and the classes are relatively balanced, so no data augmentation is needed.
 
 ## Modeling
 
