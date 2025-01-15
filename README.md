@@ -2,9 +2,9 @@
 
 ![images/distracted-driver-photo.png](https://github.com/jordanate/distracted-driver-detection/blob/main/images/distracted-driver-photo.png)
 
-### Deployed Model
+<!-- ### Deployed Model
 
-https://jordanate-distracted-driver-detection-model-fc3haz.streamlit.app/
+https://jordanate-distracted-driver-detection-model-fc3haz.streamlit.app/ -->
 
 **By:** Jordana Tepper
 
